@@ -1,0 +1,734 @@
+{
+    "productcode": "async_survey_1_v2",
+    "meta": {
+        "registrationtitle": "MVP Humanities Survey Course",
+        "title": "MVP Humanities Survey",
+        "status": "un-published",
+        "currentversion": 9,
+        "productcode": "async_survey_1_v2",
+        "producttype": "courseware",
+        "supertype": "content",
+        "source": {
+            "type": "s3",
+            "s3": {
+                "bucket": "dls-asgard-thor-builder-content"
+            }
+        },
+        "schema": 1,
+        "author": "MAP Academy",
+        "description": "This humanities survey course explores major ideas, texts, and cultural movements across history to help students understand how people have made meaning of the world. Students examine literature, history, philosophy, art, and social thought through critical reading, discussion, and reflection. The course emphasizes connections between past and present while building skills in analysis, communication, and perspective-taking.",
+        "ext_product_id": "06cj7cvkr82k5m447660",
+        "short-description": null,
+        "thumbnaillarge": "map1/assets/image/async_survey_1_v2/v1/humanities.jpg",
+        "versions": {
+            "content-items": 1
+        },
+        "paths": {
+            "public-assets": "https://asgard-thor-content.comprodls.com/map1/products/async_survey_1_v2/9/assets",
+            "secured-assets": "https://s3.amazonaws.com/dls-asgard-thor-product-versions-1/map1/products/async_survey_1_v2/9/assets",
+            "public-submissions": "https://asgard-thor-content.comprodls.com/submissions/map1/async_survey_1_v2",
+            "secured-submissions": "https://dls-asgard-thor-user-data.s3.amazonaws.com/submissions/map1/async_survey_1_v2",
+            "json-flattened": "https://asgard-thor-content.comprodls.com/map1/products/async_survey_1_v2/9/meta/definition_flat.json"
+        },
+        "context": "standard",
+        "thumbnailsmall": null,
+        "model": {
+            "teaching-methodology": {
+                "style": "asynchronous",
+                "enduring-understanding": [],
+                "pacing": "asynchronous",
+                "students-will-know": []
+            },
+            "type": "k12-courseware",
+            "year": "2025",
+            "k12-courseware": {
+                "state-alignment": {
+                    "nces-code": "04103",
+                    "state-standards": [
+                        "USII.T2.1, USII. T1.2"
+                    ],
+                    "state": "MA"
+                },
+                "grade-level": "9",
+                "credits": {
+                    "weightage": "full",
+                    "value": 2
+                },
+                "subject": "Humanities Core"
+            },
+            "segment": "Grade 9"
+        }
+    },
+    "definition": {
+        "learning-objectives": {
+            "Essential%20Questions": {
+                "learning-objectives": {
+                    "What%20are%20the%20sources%20of%20political%20and%20cultural%20differences%20in%20the%20modern%20United%20States%3F": {
+                        "learning-objectives": {}
+                    },
+                    "How%20did%20the%20United%20States%20respond%20to%20new%20ideas%20about%20society%3F": {
+                        "learning-objectives": {}
+                    },
+                    "How%20can%20I%20draw%20connections%20between%20different%20subjects%20to%20deepen%20my%20understanding%3F": {
+                        "learning-objectives": {}
+                    },
+                    "What%20enduring%20issues%20can%20be%20seen%20reflected%20in%20literature%3F": {
+                        "learning-objectives": {}
+                    },
+                    "How%20do%20I%20successfully%20pre-write%20for%20an%20essay%3F": {
+                        "learning-objectives": {}
+                    },
+                    "How%20do%20American%20citizens%20experience%20democracy%20in%20our%20everyday%20lives%3F": {
+                        "learning-objectives": {}
+                    },
+                    "How%20does%20the%20creation%20of%20the%20United%20States%20fit%20into%20a%20larger%20historical%20context%3F": {
+                        "learning-objectives": {}
+                    },
+                    "What%20factors%20influenced%20the%20United%20States%E2%80%99%20decision%20to%20use%20nuclear%20weapons%20against%20Japan%20in%201945%3F": {
+                        "learning-objectives": {}
+                    },
+                    "How%20did%20military%2C%20political%2C%20and%20diplomatic%20goals%20shape%20the%20choices%20made%20at%20the%20end%20of%20World%20War%20II%3F": {
+                        "learning-objectives": {}
+                    },
+                    "What%20alternatives%2C%20if%20any%2C%20existed%20to%20dropping%20the%20atomic%20bombs%2C%20and%20how%20were%20those%20options%20evaluated%20at%20the%20time%3F": {
+                        "learning-objectives": {}
+                    }
+                }
+            }
+        },
+        "tags": {
+            "Competencies": {
+                "tags": {
+                    "Think%20Critically": {
+                        "tags": {
+                            "Make%20connections%20between%20ideas%20and%2For%20experiences": {
+                                "tags": {}
+                            },
+                            "Analyze%20patterns%20and%20relationships%20in%20sources": {
+                                "tags": {}
+                            },
+                            "Evaluate%20the%20relevance%2C%20bias%20and%20usefulness%20of%20information": {
+                                "tags": {}
+                            },
+                            "Evaluate%20arguments%20and%2For%20claims": {
+                                "tags": {}
+                            },
+                            "Synthesize%20information%20from%20multiple%20sources%20to%20draw%20conclusions%20or%20make%20decisions": {
+                                "tags": {}
+                            }
+                        }
+                    },
+                    "Communicate": {
+                        "tags": {
+                            "Use%20clear%20and%20precise%20language%20to%20express%20ideas": {
+                                "tags": {}
+                            },
+                            "Determine%20or%20clarify%20the%20meaning%20of%20words%20and%20phrases": {
+                                "tags": {}
+                            },
+                            "Determine%20or%20clarify%20the%20meaning%20of%20words%2C%20phrases%20and%20symbols": {
+                                "tags": {}
+                            },
+                            "Evaluate%20a%20speaker%20or%20author%E2%80%99s%20point%20of%20view%2C%20reasoning%20and%20use%20of%20rhetoric": {
+                                "tags": {}
+                            },
+                            "Develop%20arguments%20using%20claims%2C%20evidence%20and%20reasoning": {
+                                "tags": {}
+                            },
+                            "Demonstrate%20command%20of%20the%20conventions%20of%20grammar%20and%20usage": {
+                                "tags": {}
+                            },
+                            "Demonstrate%20organized%20communication%20through%20varied%20modes%20%28oral%2C%20written%2C%20visual%20and%2For%20performance%29": {
+                                "tags": {}
+                            }
+                        }
+                    },
+                    "Design%20and%20Create": {
+                        "tags": {
+                            "Create%20a%20model%20to%20represent%20relationships": {
+                                "tags": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "items": {
+        "default": [
+            {
+                "name": "ELA",
+                "item-code": "1752727510935",
+                "item-type": "folder",
+                "sub-type": "unit",
+                "description": "This humanities survey course explores major ideas, texts, and cultural movements across history to help students understand how people have made meaning of the world. Students examine literature, history, philosophy, art, and social thought through critical reading, discussion, and reflection. The course emphasizes connections between past and present while building skills in analysis, communication, and perspective-taking.",
+                "model": {
+                    "thumbnail": "",
+                    "category": "capstone",
+                    "tags:": [],
+                    "phase": "",
+                    "timeline": ""
+                },
+                "items": [
+                    {
+                        "name": "Othello's Renaissance",
+                        "item-type": "resource",
+                        "item-code": "1752727510935/1752727647422",
+                        "sub-type": "lesson",
+                        "contributes-to-completion": true,
+                        "contributes-to-score": true,
+                        "tracking": true,
+                        "resource": "RE_011",
+                        "grading": "manual",
+                        "model": {
+                            "role": "all",
+                            "render-mode": "vertical-scroll",
+                            "allow-comments": true,
+                            "allow-discussions": true,
+                            "objectives": [
+                                "In this task you will use your prior knowledge of the Harlem Renaissance and Shakespearean tragedy, and your analysis of primary and secondary sources, to make connections between Othello and the writings of W.E.B. DuBois and Ralph Ellison. You will draw insights that will allow you to answer the essential questions for this unit."
+                            ]
+                        },
+                        "embedded": [
+                            {
+                                "name": "Quotable Connections",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647422/1752727647420",
+                                "grading": "manual",
+                                "tracking": true,
+                                "resource": "RE_0111",
+                                "model": {
+                                    "role": "all"
+                                }
+                            },
+                            {
+                                "name": "American Reception for Othello",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647422/1752727647485",
+                                "resource": "RE_0112",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            },
+                            {
+                                "name": "Primary Source Analysis",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647422/1752727647464",
+                                "resource": "RE_0113",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Capstone Pre-Write",
+                        "item-code": "1752727510935/1752727647423",
+                        "item-type": "resource",
+                        "pass-score": 0.7,
+                        "contributes-to-completion": true,
+                        "contributes-to-score": true,
+                        "grading": "manual",
+                        "model": {
+                            "role": "all"
+                        },
+                        "embedded": [
+                            {
+                                "name": "Selecting a Prompt",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647423/1752727647436",
+                                "grading": "manual",
+                                "tracking": true,
+                                "resource": "RE_0121",
+                                "model": {
+                                    "role": "all"
+                                }
+                            },
+                            {
+                                "name": "Choosing evidence",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647423/1752727647435",
+                                "resource": "RE_0122",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            },
+                            {
+                                "name": "Making a Plan",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647423/1752727647434",
+                                "resource": "RE_0123",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            }
+                        ],
+                        "tracking": true,
+                        "resource": "RE_012"
+                    },
+                    {
+                        "name": "Sample ELA Lesson 3",
+                        "item-code": "1752727510935/1752727647424",
+                        "item-type": "resource",
+                        "pass-score": 0.7,
+                        "contributes-to-completion": true,
+                        "contributes-to-score": true,
+                        "grading": "manual",
+                        "model": {
+                            "role": "all"
+                        },
+                        "tracking": true,
+                        "resource": "RE_012",
+                        "embedded": [
+                            {
+                                "name": "Segment 1",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647424/1752727647436",
+                                "grading": "manual",
+                                "tracking": true,
+                                "resource": "RE_0121",
+                                "model": {
+                                    "role": "all"
+                                }
+                            },
+                            {
+                                "name": "Segment 2",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647424/1752727647435",
+                                "resource": "RE_0122",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            },
+                            {
+                                "name": "Segment 3",
+                                "item-type": "resource",
+                                "item-code": "1752727510935/1752727647424/1752727647434",
+                                "resource": "RE_0123",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "History",
+                "item-code": "1752727510945",
+                "item-type": "folder",
+                "sub-type": "unit",
+                "description": "This humanities survey course explores major ideas, texts, and cultural movements across history to help students understand how people have made meaning of the world. Students examine literature, history, philosophy, art, and social thought through critical reading, discussion, and reflection. The course emphasizes connections between past and present while building skills in analysis, communication, and perspective-taking.",
+                "model": {
+                    "thumbnail": "",
+                    "category": "capstone",
+                    "tags:": [],
+                    "phase": "",
+                    "timeline": ""
+                },
+                "items": [
+                    {
+                        "name": "Course Introduction",
+                        "item-type": "resource",
+                        "item-code": "1752727510945/1752727647452",
+                        "sub-type": "lesson",
+                        "contributes-to-completion": true,
+                        "contributes-to-score": true,
+                        "tracking": true,
+                        "resource": "RE_021",
+                        "grading": "manual",
+                        "model": {
+                            "role": "all",
+                            "render-mode": "vertical-scroll",
+                            "allow-comments": true,
+                            "allow-discussions": true
+                        },
+                        "embedded": [
+                            {
+                                "name": "Exploring What You Already Know",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647452/1752727647436",
+                                "grading": "manual",
+                                "tracking": true,
+                                "resource": "RE_0211",
+                                "model": {
+                                    "role": "all"
+                                }
+                            },
+                            {
+                                "name": "Zooming Out to a Wider Perspective",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647452/1752727647435",
+                                "resource": "RE_0212",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            },
+                            {
+                                "name": "Vocabulary",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647452/1752727647434",
+                                "resource": "RE_0213",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nuclear Bombs in Japan",
+                        "item-code": "1752727510945/1752727647453",
+                        "item-type": "resource",
+                        "pass-score": 0.7,
+                        "contributes-to-completion": true,
+                        "contributes-to-score": true,
+                        "grading": "manual",
+                        "model": {
+                            "role": "all"
+                        },
+                        "embedded": [
+                            {
+                                "name": "Overview",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647453/1752727647436",
+                                "grading": "manual",
+                                "tracking": true,
+                                "resource": "RE_0221",
+                                "model": {
+                                    "role": "all"
+                                }
+                            },
+                            {
+                                "name": "Primary Sources",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647453/1752727647435",
+                                "resource": "RE_0222",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            },
+                            {
+                                "name": "Your Stance",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647453/1752727647434",
+                                "resource": "RE_0223",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            }
+                        ],
+                        "tracking": true,
+                        "resource": "RE_022"
+                    },
+                    {
+                        "name": "Sample History Lesson 3",
+                        "item-code": "1752727510945/1752727647352",
+                        "item-type": "resource",
+                        "pass-score": 0.7,
+                        "contributes-to-completion": true,
+                        "contributes-to-score": true,
+                        "grading": "manual",
+                        "model": {
+                            "role": "all"
+                        },
+                        "embedded": [
+                            {
+                                "name": "Segment 1",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647352/1752727647431",
+                                "grading": "manual",
+                                "tracking": true,
+                                "resource": "RE_0221",
+                                "model": {
+                                    "role": "all"
+                                }
+                            },
+                            {
+                                "name": "Segment 2",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647352/1752727647432",
+                                "resource": "RE_0222",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            },
+                            {
+                                "name": "Segment 3",
+                                "item-type": "resource",
+                                "item-code": "1752727510945/1752727647352/1752727647433",
+                                "resource": "RE_0223",
+                                "tracking": true,
+                                "model": {
+                                    "role": "all"
+                                },
+                                "grading": "manual"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "resources": {
+        "generic": {
+            "RE_011": {
+                "learning-objectives": [
+                    "Essential%20Questions/What%20are%20the%20sources%20of%20political%20and%20cultural%20differences%20in%20the%20modern%20United%20States%3F",
+                    "Essential%20Questions/How%20did%20the%20United%20States%20respond%20to%20new%20ideas%20about%20society%3F",
+                    "Essential%20Questions/How%20can%20I%20draw%20connections%20between%20different%20subjects%20to%20deepen%20my%20understanding%3F",
+                    "Essential%20Questions/What%20enduring%20issues%20can%20be%20seen%20reflected%20in%20literature%3F"
+                ],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences",
+                    "Competencies/Communicate/Evaluate%20a%20speaker%20or%20author%E2%80%99s%20point%20of%20view%2C%20reasoning%20and%20use%20of%20rhetoric",
+                    "Competencies/Communicate/Demonstrate%20command%20of%20the%20conventions%20of%20grammar%20and%20usage",
+                    "Competencies/Communicate/Develop%20arguments%20using%20claims%2C%20evidence%20and%20reasoning",
+                    "Competencies/Think%20Critically/Analyze%20patterns%20and%20relationships%20in%20sources"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0111": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences",
+                    "Competencies/Communicate/Evaluate%20a%20speaker%20or%20author%E2%80%99s%20point%20of%20view%2C%20reasoning%20and%20use%20of%20rhetoric",
+                    "Competencies/Communicate/Demonstrate%20command%20of%20the%20conventions%20of%20grammar%20and%20usage"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Quotable Connections",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0112": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences",
+                    "Competencies/Communicate/Develop%20arguments%20using%20claims%2C%20evidence%20and%20reasoning",
+                    "Competencies/Communicate/Demonstrate%20command%20of%20the%20conventions%20of%20grammar%20and%20usage"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "American Reception for Othello",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0113": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Analyze%20patterns%20and%20relationships%20in%20sources",
+                    "Competencies/Communicate/Develop%20arguments%20using%20claims%2C%20evidence%20and%20reasoning",
+                    "Competencies/Communicate/Demonstrate%20command%20of%20the%20conventions%20of%20grammar%20and%20usage"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Primary Source Analysis",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_012": {
+                "learning-objectives": [
+                    "Essential%20Questions/How%20do%20I%20successfully%20pre-write%20for%20an%20essay%3F"
+                ],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences",
+                    "Competencies/Design%20and%20Create/Create%20a%20model%20to%20represent%20relationships",
+                    "Competencies/Communicate/Demonstrate%20organized%20communication%20through%20varied%20modes%20%28oral%2C%20written%2C%20visual%20and%2For%20performance%29"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0121": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Selecting a Prompt",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0122": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Choosing Evidence",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0123": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Design%20and%20Create/Create%20a%20model%20to%20represent%20relationships",
+                    "Competencies/Communicate/Demonstrate%20organized%20communication%20through%20varied%20modes%20%28oral%2C%20written%2C%20visual%20and%2For%20performance%29"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Making a Plan",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_021": {
+                "learning-objectives": [
+                    "Essential%20Questions/How%20do%20American%20citizens%20experience%20democracy%20in%20our%20everyday%20lives%3F",
+                    "Essential%20Questions/How%20does%20the%20creation%20of%20the%20United%20States%20fit%20into%20a%20larger%20historical%20context%3F"
+                ],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences",
+                    "Competencies/Communicate/Use%20clear%20and%20precise%20language%20to%20express%20ideas",
+                    "Competencies/Communicate/Determine%20or%20clarify%20the%20meaning%20of%20words%20and%20phrases",
+                    "Competencies/Think%20Critically/Analyze%20patterns%20and%20relationships%20in%20sources",
+                    "Competencies/Communicate/Determine%20or%20clarify%20the%20meaning%20of%20words%2C%20phrases%20and%20symbols"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0211": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Make%20connections%20between%20ideas%20and%2For%20experiences",
+                    "Competencies/Communicate/Use%20clear%20and%20precise%20language%20to%20express%20ideas",
+                    "Competencies/Communicate/Determine%20or%20clarify%20the%20meaning%20of%20words%20and%20phrases"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Exploring What You Already Know",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0212": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Analyze%20patterns%20and%20relationships%20in%20sources",
+                    "Competencies/Communicate/Use%20clear%20and%20precise%20language%20to%20express%20ideas",
+                    "Competencies/Communicate/Determine%20or%20clarify%20the%20meaning%20of%20words%20and%20phrases"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Zooming Out to a Wider Perspective",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0213": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Communicate/Determine%20or%20clarify%20the%20meaning%20of%20words%2C%20phrases%20and%20symbols"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Vocabulary",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_022": {
+                "learning-objectives": [
+                    "Essential%20Questions/What%20factors%20influenced%20the%20United%20States%E2%80%99%20decision%20to%20use%20nuclear%20weapons%20against%20Japan%20in%201945%3F",
+                    "Essential%20Questions/How%20did%20military%2C%20political%2C%20and%20diplomatic%20goals%20shape%20the%20choices%20made%20at%20the%20end%20of%20World%20War%20II%3F",
+                    "Essential%20Questions/What%20alternatives%2C%20if%20any%2C%20existed%20to%20dropping%20the%20atomic%20bombs%2C%20and%20how%20were%20those%20options%20evaluated%20at%20the%20time%3F"
+                ],
+                "tags": [
+                    "Competencies/Think%20Critically/Evaluate%20arguments%20and%2For%20claims",
+                    "Competencies/Communicate/Evaluate%20a%20speaker%20or%20author%E2%80%99s%20point%20of%20view%2C%20reasoning%20and%20use%20of%20rhetoric",
+                    "Competencies/Think%20Critically/Synthesize%20information%20from%20multiple%20sources%20to%20draw%20conclusions%20or%20make%20decisions",
+                    "Competencies/Communicate/Develop%20arguments%20using%20claims%2C%20evidence%20and%20reasoning"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0221": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Evaluate%20arguments%20and%2For%20claims"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Primary Sources",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0222": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Communicate/Evaluate%20a%20speaker%20or%20author%E2%80%99s%20point%20of%20view%2C%20reasoning%20and%20use%20of%20rhetoric"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Primary Sources",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            },
+            "RE_0223": {
+                "learning-objectives": [],
+                "tags": [
+                    "Competencies/Think%20Critically/Synthesize%20information%20from%20multiple%20sources%20to%20draw%20conclusions%20or%20make%20decisions",
+                    "Competencies/Communicate/Develop%20arguments%20using%20claims%2C%20evidence%20and%20reasoning"
+                ],
+                "sub-type": "ext-xapi-openended",
+                "description": "Your Stance",
+                "ext-xapi-openended": {
+                    "url": "ext-xapi-openended/1752727647422",
+                    "tool-ref": "Gradpath"
+                }
+            }
+        },
+        "test": {},
+        "ebook": {}
+    },
+    "server": {
+        "request_id": "Root=1-6981c8b5-4af4bc744015f6963431f4fe"
+    }
+}
